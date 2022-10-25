@@ -1,0 +1,22 @@
+.tickers-table {
+  width: 80vw;
+  border-radius: 16px;
+  border-collapse: collapse;
+  background-color: rgb(248, 252, 251);
+}
+
+tbody .tickers-table__row:hover {
+  box-shadow: 0 0 8px 2px #b6b8b6;
+}
+
+.tickers-table__element {
+  padding: 20px;
+  text-align: center;
+}
+
+.tickers-table__ticker {
+  font-weight: 700;
+  padding: 8px 16px;
+  border-radius: 16px;
+  color: #fff;
+}

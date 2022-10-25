@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the App component 1`] = `
+<DocumentFragment>
+  <form
+    class="settings"
+  >
+    Update every
+    <input
+      class="settings__input"
+      max="30"
+      min="1"
+      placeholder="second"
+      type="number"
+      value="5"
+    />
+    seconds
+    <button
+      class="settings__button"
+      type="submit"
+    >
+      Confirm
+    </button>
+  </form>
+</DocumentFragment>
+`;

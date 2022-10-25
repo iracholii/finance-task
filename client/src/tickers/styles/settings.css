@@ -1,0 +1,28 @@
+.settings {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.settings__input {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.settings__button {
+  font-size: 20px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: rgb(69, 184, 238);
+}
+
+.settings__button:hover {
+  background-color: rgb(64, 137, 231);
+}
